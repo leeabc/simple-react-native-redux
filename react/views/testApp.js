@@ -1,5 +1,6 @@
-import React, { View, Text, TextInput, Component, PropTypes } from 'react-native';
-import { connect } from 'react-redux/native';
+import React, { Component, PropTypes } from 'react';
+import { View, Text, TextInput } from 'react-native';
+import { connect } from 'react-redux';
 import { addMessage, fetchWeather } from '../actions/actions';
 
 class TestApp extends Component{
